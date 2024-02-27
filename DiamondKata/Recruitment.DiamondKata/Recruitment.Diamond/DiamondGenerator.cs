@@ -1,4 +1,7 @@
-﻿using System.Text;
+﻿using System.Runtime.CompilerServices;
+using System.Text;
+
+[assembly: InternalsVisibleToAttribute("Recruitment.DiamondTests")]
 
 namespace Recruitment.Diamond
 {
@@ -17,7 +20,7 @@ namespace Recruitment.Diamond
             return diamond.ToString();
         }
 
-        private static void TopLevelTree(StringBuilder diamond, int diamondSize)
+        internal static void TopLevelTree(StringBuilder diamond, int diamondSize)
         {
             // to the middle of the diamond
             //  A
@@ -45,7 +48,7 @@ namespace Recruitment.Diamond
         }
 
 
-        private static void BottomLevelTree(StringBuilder diamond, int diamondSize)
+        internal static void BottomLevelTree(StringBuilder diamond, int diamondSize)
         {
             // from the middle of the diamond to the bottom
             // B B

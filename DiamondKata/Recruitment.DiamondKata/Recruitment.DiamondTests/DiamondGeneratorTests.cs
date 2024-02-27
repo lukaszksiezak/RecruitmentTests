@@ -1,9 +1,29 @@
 ﻿using Xunit;
+using System.Text;
 
 namespace Recruitment.Diamond.Tests
 {
     public class DiamondGeneratorTests
     {
+        [Fact]
+        public void UpperTreeGeneration_Tests()
+        {
+            var sbDiamond = new StringBuilder();
+            var diamondSize = 3; // C
+            DiamondGenerator.TopLevelTree(sbDiamond, diamondSize);
+
+            Assert.Equal("  A\r\n B B\r\nC   C\r\n", sbDiamond.ToString());
+        }
+
+        [Fact]
+        public void BottomTreeGeneration_Tests()
+        {
+            var sbDiamond = new StringBuilder();
+            var diamondSize = 3; // C
+            DiamondGenerator.BottomLevelTree(sbDiamond, diamondSize);
+
+            Assert.Equal(" B B\r\n  A\r\n", sbDiamond.ToString());
+        }
 
         [Fact]
         public void GenerateTest_ShouldReturnThreeLevelDiamond()
