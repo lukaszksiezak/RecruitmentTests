@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recruitment.Diamond", "Recruitment.Diamond\Recruitment.Diamond.csproj", "{0827284B-759C-47CD-AEC4-F0A7E4D32AFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recruitment.DiamondTests", "Recruitment.DiamondTests\Recruitment.DiamondTests.csproj", "{B86628DE-71E0-4093-9757-74F4CACAFDFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0827284B-759C-47CD-AEC4-F0A7E4D32AFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0827284B-759C-47CD-AEC4-F0A7E4D32AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0827284B-759C-47CD-AEC4-F0A7E4D32AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0827284B-759C-47CD-AEC4-F0A7E4D32AFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B86628DE-71E0-4093-9757-74F4CACAFDFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B86628DE-71E0-4093-9757-74F4CACAFDFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B86628DE-71E0-4093-9757-74F4CACAFDFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B86628DE-71E0-4093-9757-74F4CACAFDFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57EE02F0-E413-4181-B864-97E98C1D7DA7}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Recruitment.Diamond": {
+      "commandName": "Project",
+      "commandLineArgs": "g"
+    }
+  }
+}
